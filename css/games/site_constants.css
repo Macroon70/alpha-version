@@ -1,0 +1,596 @@
+/************************************************************/
+/* Colors                      															*/
+/************************************************************/
+
+/* new system of colors */
+/* color palette from layout */
+
+.white {
+	color: #ffffff;
+}
+
+.white_bg {
+	background-color: #ffffff;
+}
+
+.white_imp {
+	color: #ffffff !important;
+}
+
+.white_bg_imp {
+	background-color: #ffffff !important;
+}
+
+.black {
+	color: #000000;
+}
+
+.black_bg {
+	background-color: #000000;
+}
+
+/* dark colors column */
+
+/* grey */
+.c1r1_color {
+	color: #484F57;
+}
+
+.c1r1_imp {
+	color: #484F57 !important;
+}
+
+.c1r1_bg {
+	background-color: #484F57;
+}
+
+/* dark brown */
+.c1r2_color {
+	color: #232120;
+}
+
+.c1r2_imp {
+	color: #232120 !important;
+}
+
+.c1r2_bg {
+	background-color: #232120;
+}
+
+/* dark grey */
+.c1r3_color {
+	color: #1C1C1B;
+}
+
+.c1r3_imp {
+	color: #1C1C1B !important;
+}
+
+.c1r3_bg {
+	background-color: #1C1C1B;
+}
+
+/* light grey column */
+
+/* lightest grey */
+.c2r1_color {
+	color: #EFEFEA;
+}
+
+.c2r1_imp {
+	color: #EFEFEA !important;
+}
+
+.c2r1_bg {
+	background-color: #EFEFEA;
+}
+
+/* light grey */
+.c2r2_color {
+	color: #A3A9AC;
+}
+
+.c2r2_imp {
+	color: #A3A9AC !important;
+}
+
+.c2r2_bg {
+	background-color: #A3A9AC;
+}
+
+.c2r2_border {
+	border-color: #A3A9AC;
+}
+
+/* gray */
+.c2r3_color {
+	color: #7C858C;
+}
+
+.c2r3_imp {
+	color: #7C858C !important;
+}
+
+.c2r3_bg {
+	background-color: #7C858C;
+}
+
+/* magenta column */
+
+/* light magenta */
+.c3r1_color {
+	color: #F06A96;
+}
+
+.c3r1_imp {
+	color: #F06A96 !important;
+}
+
+.c3r1_bg {
+	background-color: #F06A96;
+}
+
+/* magenta */
+.c3r2_color {
+	color: #DA2A66;
+}
+
+.c3r2_imp {
+	color: #DA2A66 !important;
+}
+
+.c3r2_bg {
+	background-color: #DA2A66;
+}
+
+/* dark magenta */
+.c3r3_color {
+	color: #8B1C42;
+}
+
+.c3r3_imp {
+	color: #8B1C42 !important;
+}
+
+.c3r3_bg {
+	background-color: #8B1C42;
+}
+
+/* red column 1 */
+
+/* light red */
+.c4r1_color {
+	color: #F27A7A;
+}
+
+.c4r1_imp {
+	color: #F27A7A !important;
+}
+
+.c4r1_bg {
+	background-color: #F27A7A;
+}
+
+/* red */
+.c4r2_color {
+	color: #E63B3A;
+}
+
+.c4r2_imp {
+	color: #E63B3A !important;
+}
+
+.c4r2_bg {
+	background-color: #E63B3A;
+}
+
+/* dark_red */
+.c4r3_color {
+	color: #A51E28;
+}
+
+.c4r3_imp {
+	color: #A51E28 !important;
+}
+
+.c4r3_bg {
+	background-color: #A51E28;
+}
+
+
+/* orange column */
+
+/* light orange */
+.c5r1_color {
+	color: #F7BB3E;
+}
+
+.c5r1_imp {
+	color: #F7BB3E !important;
+}
+
+.c5r1_bg {
+	background-color: #F7BB3E;
+}
+
+/* orange */
+.c5r2_color {
+	color: #F58638;
+}
+
+.c5r2_imp {
+	color: #F58638 !important;
+}
+
+.c5r2_bg {
+	background-color: #F58638;
+}
+
+/* dark_orange */
+.c5r3_color {
+	color: #D85B2A;
+}
+
+.c5r3_imp {
+	color: #D85B2A !important;
+}
+
+.c5r3_bg {
+	background-color: #D85B2A;
+}
+
+/* green column */
+
+/* light green */
+.c6r1_color {
+	color: #DCE256;
+}
+
+.c6r1_imp {
+	color: #DCE256 !important;
+}
+
+.c6r1_bg {
+	background-color: #DCE256;
+}
+
+/* green */
+.c6r2_color {
+	color: #8BC541;
+}
+
+.c6r2_imp {
+	color: #8BC541 !important;
+}
+
+.c6r2_bg {
+	background-color: #8BC541;
+}
+
+/* dark green */
+.c6r3_color {
+	color: #1F9255;
+}
+
+.c6r3_imp {
+	color: #1F9255 !important;
+}
+
+.c6r3_bg {
+	background-color: #1F9255;
+}
+
+/* Turquise column */
+
+/* light turquise */
+.c7r1_color {
+	color: #77CBC8;
+}
+
+.c7r1_imp {
+	color: #77CBC8 !important;
+}
+
+.c7r1_bg {
+	background-color: #77CBC8;
+}
+
+/* light turquise */
+.c7r1_color {
+	color: #23B4A7;
+}
+
+.c7r1_imp {
+	color: #23B4A7 !important;
+}
+
+.c7r1_bg {
+	background-color: #23B4A7;
+}
+
+/* turquise */
+.c7r2_color {
+	color: #23B1A4;
+}
+
+.c7r2_imp {
+	color: #23B1A4 !important;
+}
+
+.c7r2_bg {
+	background-color: #23B1A4;
+}
+
+/* dark turquise */
+.c7r3_color {
+	color: #198077;
+}
+
+.c7r3_imp {
+	color: #198077 !important;
+}
+
+.c7r3_bg {
+	background-color: #198077;
+}
+
+/* Blue column */
+
+/* light blue */
+.c8r1_color {
+	color: #6BB5DB;
+}
+
+.c8r1_imp {
+	color: #6BB5DB !important;
+}
+
+.c8r1_bg {
+	background-color: #6BB5DB;
+}
+
+/* blue */
+.c8r2_color {
+	color: #2685B5;
+}
+
+.c8r2_imp {
+	color: #2685B5 !important;
+}
+
+.c8r2_bg {
+	background-color: #2685B5;
+}
+
+/* dark blue */
+.c8r3_color {
+	color: #1E5E80;
+}
+
+.c8r3_imp {
+	color: #1E5E80 !important;
+}
+
+.c8r3_bg {
+	background-color: #1E5E80;
+}
+
+/* Purple column */
+
+/* light purple */
+.c9r1_color {
+	color: #A093C6;
+}
+
+.c9r1_imp {
+	color: #A093C6 !important;
+}
+
+.c9r1_bg {
+	background-color: #A093C6;
+}
+
+/* purple */
+.c9r2_color {
+	color: #6053A2;
+}
+
+.c9r2_imp {
+	color: #6053A2 !important;
+}
+
+.c9r2_bg {
+	background-color: #6053A2;
+}
+
+/* dark purple */
+.c9r3_color {
+	color: #38398B;
+}
+
+.c9r3_imp {
+	color: #38398B !important;
+}
+
+.c9r3_bg {
+	background-color: #38398B;
+}
+
+/************************************************************/
+/* Webfont                      															*/
+/************************************************************/
+
+@import url("webfontkit/specimen_files/specimen_stylesheet.css");
+
+@font-face {
+    font-family: 'aktiv_groteskthin';
+    src: url('webfontkit/aktivgrotesk_std_th-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'aktiv_groteskhairline_italic';
+    src: url('webfontkit/aktivgrotesk_std_hairlineit-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'aktiv_groteskhairline';
+    src: url('webfontkit/aktivgrotesk_std_hairline-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'aktiv_groteskblack_italic';
+    src: url('webfontkit/aktivgrotesk_std_blkit-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'aktiv_groteskblack';
+    src: url('webfontkit/aktivgrotesk_std_blk-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'aktiv_grotesklight';
+    src: url('webfontkit/aktivgrotesk_std_lt-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'aktiv_groteskmedium_italic';
+    src: url('webfontkit/aktivgrotesk_std_mdit-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'aktiv_groteskregular';
+    src: url('webfontkit/aktivgrotesk_std_rg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'aktiv_groteskmedium';
+    src: url('webfontkit/aktivgrotesk_std_md-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'aktiv_grotesklight_italic';
+    src: url('webfontkit/aktivgrotesk_std_ltit-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'aktiv_groteskitalic';
+    src: url('webfontkit/aktivgrotesk_std_it-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'aktiv_groteskbold_italic';
+    src: url('webfontkit/aktivgrotesk_std_bdit-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'aktiv_groteskbold';
+    src: url('webfontkit/aktivgrotesk_std_bd-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'aktiv_groteskxbold_italic';
+    src: url('webfontkit/aktivgrotesk_std_xbdit-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'aktiv_groteskxbold';
+    src: url('webfontkit/aktivgrotesk_std_xbd-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'aktiv_groteskthin_italic';
+    src: url('webfontkit/aktivgrotesk_std_thit-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
