@@ -231,11 +231,31 @@
 
 #forth_screen {
 	z-index: 0;
-	background-image: url(../../images/games_site/hardware/main_forth_bg.png?v=1);
+}
+
+#forth_screen .forth_bg {
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: inherit;
+}
+
+#HDTV_bg_1 {
+	background-image: url(../../images/games_site/hardware/HDTV_1_bg.png?v=1);
+}
+
+#HDTV_bg_2 {
+	background-image: url(../../images/games_site/hardware/HDTV_2_bg.png?v=1);
+	display: none;
 }
 
 #forth_screen > div {
 	position: absolute;
+}
+
+#cache_image {
+	width: 0;
+	height: 0;
 }
 
 #forth_info_wrapper {
@@ -256,6 +276,21 @@
 	font-size: 1.8em;
 }
 
+#wrapper_buttons {
+	width: 100%;
+	height: auto;
+	position: absolute;
+	left: 0;
+	bottom: 9%;
+}
+
+#forth_info_wrapper a {
+	position: relative;
+	float: left;
+	width: 75%;
+	height: auto;
+}
+
 #forth_info_wrapper > p {
 	margin-top: 7%;
 	margin-bottom: 18%;
@@ -263,15 +298,13 @@
 }
 
 .tv_button {
-	width: 75%;
-	height: 8%;
-	padding: 5%;
+	width: 100%;
 	background-size: 85% auto;
 	background-position: center center;
 }
 
-.tv_button:not(.tv_selected) {
-	opacity: 0.3;
+#forth_info_wrapper > a:not(.tv_selected) > div {
+	opacity: 0.7;
 }
 
 #tv_lg_google {

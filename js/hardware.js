@@ -27,6 +27,9 @@ function resizewindow(){
   $('#menu_close_button').css({ height : $('#menu_hamburger').height()});
   $('#down_arrow').css({ height : $('#menu_hamburger').height()});
 
+  $('.tv_button').each(function() {
+    $(this).css({ height : $(this).width() * 0.33 });
+  })
   $('.footer_box').css({ height : $('.footer_box').width() * 0.623 });
   $('.footer_big_box').css({ height : $('.footer_box').height() });
   $('#footer_logo').css({ height : $('#footer_logo').width() * 0.272 });
@@ -115,6 +118,34 @@ $(document).ready(function($) {
       sectionOffsets[4] = sectionOffsets[3] + $('#fifth_screen').height();
       sectionOffsets[5] = $('#scrolling_layer').height();
       moveToNextBreakpoint();
+    }
+  });
+
+  /************************************************************/
+  /* User interactions - HDTV change                          */
+  /************************************************************/
+  $('#wrapper_buttons > a').on({
+    click: function() {
+      if (!$(this).hasClass('tv_selected')) {
+        $(this)
+          .addClass('tv_selected')
+          .children('div')
+            .removeClass('c2r2_bg')
+            .addClass('white_bg')
+            .parent()
+          .siblings()
+          .removeClass('tv_selected')
+          .children('div')
+            .removeClass('white_bg')
+            .addClass('c2r2_bg')
+        var bgid = $(this).attr('data-bgid');
+        $('#HDTV_bg_'+bgid)
+          .fadeIn(500)
+          .siblings('.forth_bg')
+          .fadeOut(500);
+        $('#forth_info_wrapper h3').html($(this).attr('data-h3'));
+        $('#forth_info_wrapper p').html($(this).attr('data-p'));
+      }
     }
   });
 
